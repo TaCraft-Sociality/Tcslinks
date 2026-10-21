@@ -1,0 +1,15 @@
+name: Tcslinks
+main: tcs.Tcslinks
+version: 1.0.0
+api-version: 1.21
+authors:
+  - tcs
+commands:
+  tcslinks:
+    description: 管理 Tcslinks 插件
+    usage: /tcslinks reload
+    permission: tcslinks.reload
+permissions:
+  tcslinks.reload:
+    description: 允许重载Tcslinks配置
+    default: op
